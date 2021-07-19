@@ -1,6 +1,6 @@
 ---
 layout: page
-title: The Developer's Toolbox
+title: Open Toolbox
 subtitle: Trova la risorsa che fa per te.
 callouts: callouts
 hero_height: is-large

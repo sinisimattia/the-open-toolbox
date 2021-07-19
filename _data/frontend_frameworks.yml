@@ -5,16 +5,10 @@ items:
     icon: fa-vuejs
     icon_brand: true
     call_to_action_name: Vai
-    call_to_action_link: /resources/frontend/vue
+    call_to_action_link: https://vuejs.org
 
   - title: React
     icon: fa-react
     icon_brand: true
     call_to_action_name: Vai
-    call_to_action_link: /resources/frontend/react
-
-  - title: Bootstrap
-    icon: fa-bootstrap
-    icon_brand: true
-    call_to_action_name: Vai
-    call_to_action_link: /resources/frontend/bootstrap
+    call_to_action_link: https://reactjs.org
