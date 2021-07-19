@@ -1,4 +1,4 @@
-# [The Developer's Toolbox](https://thedevelopertoolbox.github.io) 🧰 [![GitHub license](https://img.shields.io/github/license/thedevelopertoolbox/template?color=grey&label=License)](https://github.com/thedevelopertoolbox/template/blob/main/LICENSE)
+# [Open Toolbox](https://thedevelopertoolbox.github.io) 🧰 [![GitHub license](https://img.shields.io/github/license/thedevelopertoolbox/template?color=grey&label=License)](https://github.com/thedevelopertoolbox/template/blob/main/LICENSE)
 Tutte le risorse dei mastermind di programmazione di start2impact!
 
 [![Build and Deploy to Github Pages](https://github.com/thedevelopertoolbox/template/actions/workflows/jekyll.yml/badge.svg)](https://github.com/thedevelopertoolbox/template/actions/workflows/jekyll.yml)
