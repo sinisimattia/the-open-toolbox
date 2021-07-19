@@ -1,12 +1,13 @@
 ---
 layout: page
-title: Open Toolbox
-subtitle: Trova la risorsa che fa per te.
+title: Trova la risorsa che fa per te.
 callouts: callouts
+banner_with_image: true
+image: https://i.ibb.co/NW81dVJ/The-Open-Toolbox-Cropped.gif
 hero_height: is-medium
 hero_link: "resources"
 hero_link_text: "Inizia"
-hero_link_style: "is-success"
+hero_link_style: "is-light"
 ---
 
 ## Introduzione
