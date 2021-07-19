@@ -24,7 +24,6 @@
             {% include hero.html %}
         {% endif %}
     {% endunless %}
-    {% include callouts.html %}
 
     {% include showcase.html columns=true %}
 
@@ -55,6 +54,8 @@
             </div>
         </div>
     </section>
+
+	{% include callouts.html %}
 
     {% unless page.hide_footer %}
         {% include footer.html %}
