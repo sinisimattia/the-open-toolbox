@@ -1,13 +1,13 @@
 style: is-info
 height: is-medium
 items:
-  - title: Discord
-    icon: fa-discord
-    icon_brand: true
+  - title: The Developer's Toolbox
+    icon: fa-terminal
+    icon_brand: false
     description: >
       Nel nostro server potrai conoscere sviluppatori come te, risolvere dubbi e chiedere consigli.
     call_to_action_name: Entra
-    call_to_action_link: https://discord.gg/k96x5wB2
+    call_to_action_link: https://developer.opentoolbox.online
 
   - title: GitHub
     icon: fa-github

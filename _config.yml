@@ -1,11 +1,11 @@
 title: Open Toolbox
-url: opentoolbox.online
+url: the.opentoolbox.online
 baseurl: ""
 favicon: https://i.ibb.co/N7DTRLZ/Logo-start2impact.png
 logo: https://i.ibb.co/N7DTRLZ/Logo-start2impact.png
 lang: it
 
-repository: thedevelopertoolbox/thedevelopertoolbox.github.io
+repository: opentoolbox/template
 
 incremental: true # Still experimental as of v4.2.0, disable if it leads to build not updating
 
@@ -17,9 +17,9 @@ show_sidebar: true
 permalink: /posts/:title
 
 collaboration_links:
-  issues: https://github.com/thedevelopertoolbox/thedevelopertoolbox.github.io/issues
-  pull_requests: https://github.com/thedevelopertoolbox/thedevelopertoolbox.github.io/pulls
-  discussions: https://github.com/thedevelopertoolbox/thedevelopertoolbox.github.io/discussions
+  issues: https://github.com/opentoolbox/template/issues
+  pull_requests: https://github.com/opentoolbox/template/pulls
+  discussions: https://github.com/opentoolbox/template/discussions
 
 markdown: kramdown
 fenced_code_blocks: true
@@ -41,11 +41,6 @@ plugins:
   - jekyll-environment-variables
   - jekyll-mentions
   - jekyll-target-blank
-
-social:
-  name: Mastermind Sviluppo Web & App - start2impact
-  links:
-    - https://www.facebook.com/groups/193125725354173
 
 jekyll-mentions:
   base_url: https://github.com

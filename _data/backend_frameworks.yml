@@ -1,8 +1,0 @@
-style: is-light
-height: is-small
-items:
-  - title: Item 1
-    icon: fa-laravel
-    icon_brand: true
-    call_to_action_name: Vai
-    call_to_action_link: /

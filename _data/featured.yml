@@ -1,13 +1,15 @@
 items:
-  - title: Laravel
-    subtitle: Un semplice framework per applicazioni server complesse.
+  - title: The Developer Toolbox
+    subtitle: Le risorse più utili raccolte dalla community di sviluppatori di start2impact.
     features:
-      - Semplicità
-      - Supporto
+      - Front-End
+      - Back-End
+      - App
+      - DevOps
     features_styles: is-centered is-outlined is-primary
-    image: https://www.byte5.net/media/2654/laravel.jpg?center=0.46153846153846156,0.4564102564102564&mode=crop&quality=90&width=1980&height=0&rnd=132294461620000000
-    image_ratio: is-1by1
-    link: https://laravel.com
-    link_text: Vai alla pagina
-    tags: PHP
-    github: laravel/framework
+    image: https://i.ibb.co/fdhW1RB/The-Developer-s-Toolbox-Poster.jpg
+    image_ratio: is-16by9
+    link: https://developer.opentoolbox.online
+    link_text: Vai al sito
+    tags: documentazione, tools
+    github: opentoolbox/developer
