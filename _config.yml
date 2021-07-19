@@ -1,0 +1,77 @@
+title: The Developer's Toolbox
+url: https://thedevelopertoolbox.github.io
+baseurl: ""
+favicon: https://i.ibb.co/N7DTRLZ/Logo-start2impact.png
+logo: https://i.ibb.co/N7DTRLZ/Logo-start2impact.png
+lang: it
+
+repository: thedevelopertoolbox/thedevelopertoolbox.github.io
+
+incremental: true # Still experimental as of v4.2.0, disable if it leads to build not updating
+
+remote_theme: chrisrhymes/bulma-clean-theme
+show_downloads: false
+
+show_sidebar: true
+
+permalink: /posts/:title
+
+collaboration_links:
+  issues: https://github.com/thedevelopertoolbox/thedevelopertoolbox.github.io/issues
+  pull_requests: https://github.com/thedevelopertoolbox/thedevelopertoolbox.github.io/pulls
+  discussions: https://github.com/thedevelopertoolbox/thedevelopertoolbox.github.io/discussions
+
+markdown: kramdown
+fenced_code_blocks: true
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    default_lang: html
+    css_class   : 'highlight'
+
+footer_menu: footer_menu
+fixed_navbar: bottom
+
+paginate: 5
+paginate_path: "/blog/page:num"
+
+# Set plugins here to make it compatible with GitHub pages.
+plugins:
+  - jekyll-environment-variables
+  - jekyll-mentions
+  - jekyll-target-blank
+
+social:
+  name: Mastermind Sviluppo Web & App - start2impact
+  links:
+    - https://www.facebook.com/groups/193125725354173
+
+jekyll-mentions:
+  base_url: https://github.com
+
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+      author: community
+      image: https://i.ibb.co/fdhW1RB/The-Developer-s-Toolbox-Poster.jpg
+      hero_image: https://i.ibb.co/9n5NrBn/The-Developer-s-Toolbox-banner-background.jpg
+      hero_height: is-medium
+      hero_darken: true
+  - scope:
+      path: "resources/*"
+    values:
+      layout: resource
+      show_sidebar: false
+      menubar: main_menu
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      show_sidebar: true
+      banner_with_image: true
+      image: https://i.ibb.co/9n5NrBn/The-Developer-s-Toolbox-banner-background.jpg
+      author: community

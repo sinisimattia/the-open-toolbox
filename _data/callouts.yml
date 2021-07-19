@@ -1,0 +1,19 @@
+style: is-info
+height: is-medium
+items:
+  - title: Discord
+    icon: fa-discord
+    icon_brand: true
+    description: >
+      Nel nostro server potrai conoscere sviluppatori come te, risolvere dubbi e chiedere consigli.
+    call_to_action_name: Entra
+    call_to_action_link: https://discord.gg/k96x5wB2
+
+  - title: GitHub
+    icon: fa-github
+    icon_brand: true
+    description: >
+      Questo è il primo di tanti progetti che sviluppiamo insieme alla community.
+      Contribuisci anche tu!
+    call_to_action_name: Vedi su GitHub
+    call_to_action_link: https://github.com/thedevelopertoolbox/thedevelopertoolbox.github.io

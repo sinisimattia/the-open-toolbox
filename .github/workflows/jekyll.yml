@@ -1,0 +1,47 @@
+name: Build and Deploy to Github Pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🛎 Check out master
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          token: ${{ secrets.ACCESS_TOKEN }}
+          ref: main
+
+      # Use GitHub Actions' cache to shorten build times and decrease load on servers
+      - uses: actions/cache@v2
+        with:
+          token: ${{ secrets.ACCESS_TOKEN }}
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+
+      # Standard usage
+      - uses:  helaili/jekyll-action@v2
+        with:
+          token: ${{ secrets.ACCESS_TOKEN }}
+          target_branch: gh-pages
+          jekyll_src: "."
+          target_path: "."
+          
+
+      # - name: 🧪 Build and deploy
+      #   uses: joshlarsen/jekyll4-deploy-gh-pages@master
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+      #     GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
+      #     GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
+      #   with:
+      #     GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+      #     GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
+      #     GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
+          

@@ -1,0 +1,8 @@
+.bundle
+.jekyll-cache
+.jekyll-metadata
+vendor
+_site
+.env
+_algolia_api_key
+.idea

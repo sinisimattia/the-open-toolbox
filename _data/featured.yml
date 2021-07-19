@@ -1,0 +1,26 @@
+items:
+  - title: Laravel
+    subtitle: Un semplice framework per applicazioni server complesse.
+    features:
+      - Semplicità
+      - Supporto
+    features_styles: is-centered is-outlined is-primary
+    image: https://www.byte5.net/media/2654/laravel.jpg?center=0.46153846153846156,0.4564102564102564&mode=crop&quality=90&width=1980&height=0&rnd=132294461620000000
+    image_ratio: is-1by1
+    link: /resources/backend/laravel
+    link_text: Vai alla pagina
+    tags: PHP
+    github: laravel/framework
+
+  - title: Vue
+    subtitle: Interfacce interattive, veloci e comode da creare.
+    features:
+      - Leggerezza
+      - Leggibilità
+    features_styles: is-centered is-outlined is-primary
+    image: https://www.monterail.com/hubfs/_vue-pillar/vue-header-2.png
+    image_ratio: is-1by1
+    link: /resources/frontend/vue
+    link_text: Vai alla pagina
+    tags: JavaScript,TypeScript,SCSS,HTML
+    github: vuejs/vue
