@@ -19,6 +19,9 @@ start:
 build:
 	bundle exec jekyll build
 
+publish:
+	gem push jekyll-theme-opentoolbox-*.gem
+
 actions:
 	act -g
 	act --secret-file .env -a host
