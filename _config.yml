@@ -1,4 +1,4 @@
-title: Open Toolbox
+title: The Open Toolbox
 url: the.opentoolbox.online
 baseurl: ""
 favicon: https://i.ibb.co/NW81dVJ/The-Open-Toolbox-Cropped.gif
@@ -9,7 +9,7 @@ repository: opentoolbox/template
 
 incremental: true # Still experimental as of v4.2.0, disable if it leads to build not updating
 
-remote_theme: chrisrhymes/bulma-clean-theme
+theme: bulma-clean-theme
 show_downloads: false
 
 show_sidebar: true
@@ -41,7 +41,6 @@ plugins:
   - jekyll-environment-variables
   - jekyll-mentions
   - jekyll-target-blank
-  - jekyll-remote-theme
 
 jekyll-mentions:
   base_url: https://github.com
