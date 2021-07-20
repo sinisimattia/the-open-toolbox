@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 Gem::Specification.new do |spec|
-	spec.name          = "template"
+	spec.name          = "jekyll-theme-opentoolbox"
 	spec.version       = "1.0.0"
 	spec.authors       = ["Mattia Sinisi", "Gloria Desideri"]
 

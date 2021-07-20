@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    template (1.0.0)
+    jekyll-theme-opentoolbox (1.0.0)
       github-pages
       jekyll-environment-variables
       jekyll-mentions
@@ -310,9 +310,9 @@ PLATFORMS
 
 DEPENDENCIES
   bundler
+  jekyll-theme-opentoolbox!
   rake (~> 13.0)
   rspec
-  template!
 
 BUNDLED WITH
    2.2.17
