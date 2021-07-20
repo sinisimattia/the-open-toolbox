@@ -20,6 +20,7 @@ build:
 	bundle exec jekyll build
 
 publish:
+	gem build jekyll-theme-opentoolbox
 	gem push jekyll-theme-opentoolbox-*.gem
 
 actions:
