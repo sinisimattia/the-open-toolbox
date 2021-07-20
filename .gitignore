@@ -9,3 +9,4 @@ _algolia_api_key
 bin
 lib
 .sass-cache
+*.gem
