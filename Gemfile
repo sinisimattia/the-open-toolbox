@@ -2,18 +2,7 @@
 
 source "https://rubygems.org"
 
-git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+# Specify your gem's dependencies in template.gemspec
+gemspec
 
-# Plugins
-group :jekyll_plugins do
-    gem 'github-pages'
-    # gem 'jekyll-algolia'
-    gem 'jekyll-environment-variables'
-    gem 'jekyll-mentions'
-    gem 'jekyll-target-blank'
-  end
-
-# Installs
-gem "webrick", "~> 1.7"
-gem 'rouge'
-
+gem "rake", "~> 13.0"
