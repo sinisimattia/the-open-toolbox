@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
 	spec.name          = "jekyll-theme-opentoolbox"
-	spec.version       = "1.0.3"
+	spec.version       = "1.0.4"
 	spec.authors       = ["Mattia Sinisi", "Gloria Desideri"]
 
 	spec.summary       = "A flexible, compact and automatic theme."
@@ -23,7 +23,6 @@ Gem::Specification.new do |spec|
 	spec.require_paths = ["lib"]
 
 	# Uncomment to register a new dependency of your gem
-	spec.add_dependency "github-pages"
 	spec.add_dependency "jekyll-environment-variables"
 	spec.add_dependency "jekyll-mentions"
 	spec.add_dependency "jekyll-target-blank"
