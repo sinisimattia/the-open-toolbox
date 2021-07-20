@@ -1,6 +1,7 @@
 # [Open Toolbox](https://thedevelopertoolbox.github.io) 🧰 [![GitHub license](https://img.shields.io/github/license/thedevelopertoolbox/template?color=grey&label=License)](https://github.com/thedevelopertoolbox/template/blob/main/LICENSE)
 Tutte le risorse dei mastermind di programmazione di start2impact!
 
+[![Gem Version](https://badge.fury.io/rb/jekyll-theme-opentoolbox.svg)](https://badge.fury.io/rb/jekyll-theme-opentoolbox)
 [![Build and Deploy to Github Pages](https://github.com/thedevelopertoolbox/template/actions/workflows/jekyll.yml/badge.svg)](https://github.com/thedevelopertoolbox/template/actions/workflows/jekyll.yml)
 
 
