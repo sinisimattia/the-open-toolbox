@@ -10,3 +10,4 @@ bin
 lib
 .sass-cache
 *.gem
+Gemfile.lock
