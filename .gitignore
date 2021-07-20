@@ -11,4 +11,5 @@ lib
 .sass-cache
 *.gem
 Gemfile.lock
-node_modules
+.idea
+.DS_Store
