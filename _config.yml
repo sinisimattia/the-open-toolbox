@@ -9,7 +9,6 @@ repository: opentoolbox/template
 
 incremental: true # Still experimental as of v4.2.0, disable if it leads to build not updating
 
-theme: bulma-clean-theme
 show_downloads: false
 
 show_sidebar: true
@@ -38,6 +37,9 @@ paginate_path: "/blog/page:num"
 
 # Set plugins here to make it compatible with GitHub pages.
 plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
   - jekyll-environment-variables
   - jekyll-mentions
   - jekyll-target-blank

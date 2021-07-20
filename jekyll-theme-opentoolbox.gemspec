@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
 	spec.name          = "jekyll-theme-opentoolbox"
-	spec.version       = "1.0.4"
+	spec.version       = "1.0.6"
 	spec.authors       = ["Mattia Sinisi", "Gloria Desideri"]
 
 	spec.summary       = "A flexible, compact and automatic theme."
@@ -15,20 +15,18 @@ Gem::Specification.new do |spec|
 
 	# Specify which files should be added to the gem when it is released.
 	# The `git ls-files -z` loads the files in the RubyGem that have been added into git.
-	spec.files = Dir.chdir(File.expand_path(__dir__)) do
-	`git ls-files -z`.split("\x0").reject { |f| f.match(%r{\A(?:test|spec|features)/}) }
-	end
-	spec.bindir        = "exe"
-	spec.executables   = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
-	spec.require_paths = ["lib"]
+	spec.files = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|_posts|blog|LICENSE|README|package|node_modules|favicon)!i) }
 
 	# Uncomment to register a new dependency of your gem
+	spec.add_runtime_dependency "jekyll", "~> 3.9"
+	spec.add_runtime_dependency "jekyll-feed", "~> 0.15"
+	spec.add_runtime_dependency "jekyll-sitemap", "~> 1.4"
+	spec.add_runtime_dependency "jekyll-paginate", "~> 1.1"
+	spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.6"
+	spec.add_runtime_dependency "kramdown-parser-gfm", "~> 1.1"
 	spec.add_dependency "jekyll-environment-variables"
 	spec.add_dependency "jekyll-mentions"
 	spec.add_dependency "jekyll-target-blank"
-
-	spec.add_dependency "bulma-clean-theme"
-
 	spec.add_dependency "webrick", "~> 1.7"
 	spec.add_dependency "rouge"
 
