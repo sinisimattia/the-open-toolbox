@@ -4,10 +4,11 @@ layout: default
 
 {{ content }}
 
+<div class="section mb-medium">
+	{% include subscribe.html %}
+</div>
+
 <div class="columns is-multiline">
-    <div class="column is-12">
-        {% include subscribe.html %}
-    </div>
 
     {% for post in paginator.posts %}
     <div class="column is-4-desktop is-6-tablet">
