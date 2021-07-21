@@ -1,23 +1,54 @@
 ---
-layout: default
+layout: base
 ---
 
-<div class="content is-rounded p-0">
-  <div class="section">
-      <p>📅 {{ page.date | date: "%b %-d, %Y" }} by {{ page.author }}</p>
-      <hr/>
-      {{ content }}
-  </div>
+<div class="hero is-dark mb-large">
+	<div class="hero-body">
+		<div class="container">
+			<div class="section">
+				<div class="columns is-vcentered">
+					<div class="column">
+						<h1 class="title is-1">{{page.title}}</h1>
+						<p>📅 {{ page.date | date: "%b %-d, %Y" }} by {{ page.author }}</p>
+					</div>
+
+					{% if page.summary %}
+						<div class="column">
+							{{ page.summary | markdownify }}
+						</div>
+					{% endif %}
+				</div>
+
+				{% if page.tags %}
+					<div class="tags my-medium">
+						{% for tag in page.tags %}
+							{% include tag.html tag=tag %}
+						{% endfor %}
+					</div>
+				{% endif %}
+			</div>
+
+			<div class="mb-negative-large">
+				<img src="{{page.image}}" class="thumbnail mx-auto is-rounded"/>
+			</div>
+		</div>
+	</div>
 </div>
 
-{% if page.tags %}
-<div class="tags section">
-  {% for tag in page.tags %}
-    {% include tag.html tag=tag %}
-  {% endfor %}
-</div>
-{% endif %}
+<div class="container">
+	<div class="content p-0">
+		<div class="section">
+			{{ content }}
+		</div>
+	</div>
 
-{% if site.disqus.shortname %}
-  {% include disqus.html %}
-{% endif %}
+	{% if site.disqus.shortname %}
+		{% include disqus.html %}
+	{% endif %}
+
+	{% if site.posts %}
+		<div>
+			{% include latest-posts.html %}
+		</div>
+	{% endif %}
+</div>
