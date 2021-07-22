@@ -1,4 +1,4 @@
-<nav class="navbar m-small is-rounded has-shadow {% if site.fixed_navbar %} is-fixed-{{ site.fixed_navbar }} {% endif %}" x-data="{ openNav: false }">
+<nav class="navbar has-shadow {% if site.fixed_navbar %} is-fixed-{{ site.fixed_navbar }} {% endif %}" x-data="{ openNav: false }">
     <div class="container">
         <div class="navbar-brand">
             <a href="{{ site.baseurl }}/" class="navbar-item is-rounded">
@@ -10,15 +10,14 @@
                 <span aria-hidden="true"></span>
             </a>
         </div>
-        <div class="navbar-menu p-small is-rounded" id="navMenu" :class="{ 'is-active': openNav }">
+        <div class="navbar-menu px-small is-rounded" id="navMenu" :class="{ 'is-active': openNav }">
             <div class="navbar-start">
-                <a href="{{ site.baseurl }}/" class="navbar-item is-rounded {% if page.url == "/" %}is-active{% endif %}">Home</a>
                 {% if site.data.navigation %}
                 {% for item in site.data.navigation %}
                     {% if item.dropdown %}
                     <div class="navbar-item is-rounded py-small has-dropdown is-hoverable {% if site.fixed_navbar == 'bottom' %} has-dropdown-up {% endif %}">
                         <a href="{{ item.link | relative_url }}" class="navbar-link is-rounded {% if item.link == page.url %}is-active{% endif %}">{{ item.name }}</a>
-                        <div class="navbar-dropdown is-rounded">
+                        <div class="navbar-dropdown is-boxed">
                             {% for subitem in item.dropdown %}
                             <a href="{{ subitem.link | relative_url }}" class="navbar-item is-rounded {% if subitem.link == page.url %}is-active{% endif %}">{{ subitem.name }}</a>
                             {% endfor %}
