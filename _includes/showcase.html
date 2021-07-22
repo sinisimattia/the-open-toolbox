@@ -9,7 +9,7 @@
 		
 			<div {% if include.columns == true %} class="columns" {% endif %}>
 			{% for item in showcase.items %}
-				<div class="column">
+				<div class="column is-6">
 					<section class="showcase is-rounded">
 						<figure class="image {% if item.image_ratio %} {{ item.image_ratio }} {% else %} is-16by9 {% endif %}">
 							<img src="{{ item.image | relative_url }}" class="is-rounded" />
