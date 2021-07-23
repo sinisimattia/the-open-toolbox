@@ -35,3 +35,15 @@ div.highlight {
         margin-bottom: 0.75rem;
     }
 }
+
+.divider-container {
+	overflow: hidden;
+	height: 150px;
+
+	svg {
+		path {
+			stroke: none;
+			fill: $primary;
+		}
+	}
+}
