@@ -5,7 +5,7 @@ favicon: https://i.ibb.co/NW81dVJ/The-Open-Toolbox-Cropped.gif
 logo: https://i.ibb.co/NW81dVJ/The-Open-Toolbox-Cropped.gif
 lang: it
 
-repository: opentoolbox/template
+repository: opentoolbox/theme
 
 incremental: true # Still experimental as of v4.2.0, disable if it leads to build not updating
 
@@ -15,10 +15,12 @@ show_sidebar: true
 
 permalink: /posts/:title
 
-collaboration_links:
-  issues: https://github.com/opentoolbox/template/issues
-  pull_requests: https://github.com/opentoolbox/template/pulls
-  discussions: https://github.com/opentoolbox/template/discussions
+links:
+  issues: https://github.com/opentoolbox/theme/issues
+  pull_requests: https://github.com/opentoolbox/theme/pulls
+  discussions: https://github.com/opentoolbox/theme/discussions
+  rules: https://the.opentoolbox.online/about/rules
+  source: https://github.com/opentoolbox/theme
 
 markdown: kramdown
 fenced_code_blocks: true
