@@ -5,15 +5,15 @@ items:
     icon: fa-terminal
     icon_brand: false
     description: >
-      Nel nostro server potrai conoscere sviluppatori come te, risolvere dubbi e chiedere consigli.
-    call_to_action_name: Entra
+      Risorse per sviluppatori, raccolte per la tua convenienza.
+    call_to_action_name: Vai
     call_to_action_link: https://developer.opentoolbox.online
 
   - title: GitHub
     icon: fa-github
     icon_brand: true
     description: >
-      Questo è il primo di tanti progetti che sviluppiamo insieme alla community.
+      Questo è uno tra tanti progetti che sviluppiamo insieme alla community.
       Contribuisci anche tu!
     call_to_action_name: Vedi su GitHub
     call_to_action_link: https://github.com/opentoolbox

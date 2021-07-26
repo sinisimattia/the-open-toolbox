@@ -1,5 +1,7 @@
-- name: Risorse
+- name: Sites
   link: /resources/
   dropdown: 
-    - name: Blog
-      link: /blog/
+    - name: Main
+      link: https://the.opentoolbox.online
+    - name: Developer
+      link: https://developer.opentoolbox.online
