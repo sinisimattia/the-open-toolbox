@@ -1,74 +1,96 @@
-# [Open Toolbox](https://thedevelopertoolbox.github.io) 🧰 [![GitHub license](https://img.shields.io/github/license/thedevelopertoolbox/template?color=grey&label=License)](https://github.com/thedevelopertoolbox/template/blob/main/LICENSE)
-Tutte le risorse dei mastermind di programmazione di start2impact!
+# [Open Toolbox](https://the.opentoolbox.online) 🧰 [![License](https://img.shields.io/github/license/opentoolbox/theme?color=f40000&label=License)](https://github.com/opentoolbox/theme/blob/main/LICENSE)
 
 [![Gem Version](https://badge.fury.io/rb/jekyll-theme-opentoolbox.svg)](https://badge.fury.io/rb/jekyll-theme-opentoolbox)
-[![Build and Deploy to Github Pages](https://github.com/thedevelopertoolbox/template/actions/workflows/jekyll.yml/badge.svg)](https://github.com/thedevelopertoolbox/template/actions/workflows/jekyll.yml)
+[![Build and Deploy to Github Pages](https://github.com/opentoolbox/theme/actions/workflows/jekyll.yml/badge.svg)](https://github.com/opentoolbox/theme/actions/workflows/jekyll.yml)
 
+This is a theme for Jekyll, built so that you can create a fast, automatially updated and mobile-friendly websites without worrying about the actual HTML.
 
-Questo sito è pensato per raccogliere tutte le risorse che potrebbero risultare utili a studenti di programmazione.
+## How to use it
+Install it locally:
+```bash
+bundle install jekyll-theme-opentoolbox
+```
 
-Abbiamo raccolto tantissimi strumenti, guide, framework e altri in un unico punto.
+Or you could set it as a **remote theme** for [GitHub Pages](https://pages.github.com) by adding this line to your `_config.yml`.
+```yaml
+remote_theme: opentoolbox/theme
+```
 
-## 👥 Contribuire
+___
 
-Abbiamo pensato ad un progetto totalmente aperto e mantenuto dalla community quindi, se vuoi sei il benvenuto ad aggiungere delle risorse o correggere quelle che abbiamo... o magari a migliorare lo stile del sito stesso!
+## 👥 Contributing
 
-Se decidi di contribuire con una **pull request** ricordati di farlo con gli giusti **label**.
+To contribute to this project please refer to our [rules](https://the.opentoolbox.online/about/rules). They're not many, don't worry.
 
-## 👨‍💻 Sviluppo in locale
+## 👨‍💻 Local Development
 
 ### 🧪 Jekyll & Ruby
 
-Questo sito è progettato in *Jekyll*, un motore di templating scritto in *Ruby*. Per installarlo segui [questa guida](https://jekyllrb.com/docs/installation/).
+This site uses *Jekyll* to generate the static pages from the provided templates.
+In order to install both it and it's components follow [this guide](https://jekyllrb.com/docs/installation/).
 
 ### 🔧 Make
-Per semplificarti la vita abbiamo predisposto dei comandi semplificati con *Make*.
+To simplify our lives we have simplified the commands used to build, publish, serve, etc.
+In order to accomplish this we've used *Make*.
 
-Se sei su **Linux** lo hai già installato di default.
+If you're on **Linux** or **macOS** you already have it installed, if you're on Windows please continue this section of the guide.
 
-Se invece sei su **Windows** devi prima scaricarti un gestore di pacchetti:
+#### Install using package managers on Windows
 
-#### Installare [Chocolatey](https://chocolatey.org/install) e poi eseguire:
+You have serveral options, these are the best 2:
+
+You could install [Chocolatey](https://chocolatey.org/install) and run:
 ```bash
 choco install make
 ```
 
-#### Installare [Scoop](https://scoop.sh) e poi eseguire:
+...or install [Scoop](https://scoop.sh) and run:
 ```bash
 scoop install make
 ```
-### 🎉 Setup finale
-Una volta installato scarica tutte le dipendenze con:
 
+You're all set. Time to build this thing!
+### 🎉 Final setup
+Now that we have our simplified commands, setting up the project is easy...
+
+Here are our commands:
+#### Install & build
 ```bash
 make
 ```
 
-Per eseguire la **build**:
-
+#### Re-build
 ```bash
 make build
 ```
 
-Per servire il sito con *hot reload* esegui:
-
+#### Serve site in development mode
 ```bash
 make start
 ```
 
-e apri il link che ti dice nel terminale.
+... and open the link showed in the CLI.
 
----
+#### Check for problems
+```bash
+make check
+```
 
-# Contribuenti 💚 ![GitHub contributors](https://img.shields.io/github/contributors/thedevelopertoolbox/template?color=grey&label=)
+# Contributors ❤ ![GitHub contributors](https://img.shields.io/github/contributors/opentoolbox/theme?color=red&label=)
 
-[![contributors](https://contrib.rocks/image?repo=thedevelopertoolbox/template)](https://github.com/thedevelopertoolbox/template/graphs/contributors)
+[![contributors](https://contrib.rocks/image?repo=opentoolbox/theme)](https://github.com/opentoolbox/theme/graphs/contributors)
 
+You could also be here ☝
 
-Potresti esserci anche tu qui ☝
+___
 
-
-<img src="https://i.ibb.co/VCrGbkN/Pallino-bianco-2.png" width="500px" alt="start2impact">
-
-
-Mantenuto dalla community di [**start2impact**](https://start2impact.it).
+<div align="center">
+	<a href="https://bulma.io">
+		<img
+			src="https://bulma.io/images/made-with-bulma--semiwhite.png"
+			alt="Made with Bulma"
+			width="256"
+			height="auto"
+		/>
+	</a>
+</div>
