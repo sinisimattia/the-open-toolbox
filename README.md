@@ -3,7 +3,7 @@
 [![Gem Version](https://badge.fury.io/rb/jekyll-theme-opentoolbox.svg)](https://badge.fury.io/rb/jekyll-theme-opentoolbox)
 [![Build and Deploy to Github Pages](https://github.com/opentoolbox/theme/actions/workflows/jekyll.yml/badge.svg)](https://github.com/opentoolbox/theme/actions/workflows/jekyll.yml)
 
-This is a theme for Jekyll, built so that you can create a fast, automatially updated and mobile-friendly websites without worrying about the actual HTML.
+This is a theme for Jekyll, built so that you can create a fast, automatically updated and mobile-friendly websites without worrying about the actual HTML.
 
 ## How to use it
 Install it locally:
