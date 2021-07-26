@@ -39,6 +39,6 @@ Best of all, we intend to use the tools that **GitHub** provides (such as discus
 
 ## How to contribute ✍
 
-In order to contribute to this or another toolbox, please refer to [the rules]({{site.url}}/about/rules).
+In order to contribute to this or another toolbox, please refer to [the rules]({{site.links.rules}}).
 
 > Thanks for stopping by!

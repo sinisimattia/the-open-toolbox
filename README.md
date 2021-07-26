@@ -24,7 +24,7 @@ ___
 
 ## 👥 Contributing
 
-To contribute to this project please refer to our [rules](https://the.opentoolbox.online/about/rules). They're not many, don't worry.
+To contribute to this project please refer to our [rules]({{site.links.rules}}). They're not many, don't worry.
 
 ## 👨‍💻 Local Development
 

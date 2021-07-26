@@ -19,8 +19,9 @@ links:
   issues: https://github.com/opentoolbox/theme/issues
   pull_requests: https://github.com/opentoolbox/theme/pulls
   discussions: https://github.com/opentoolbox/theme/discussions
-  rules: https://the.opentoolbox.online/about/rules
+  rules: /about/rules
   source: https://github.com/opentoolbox/theme
+  contributors: https://github.com/opentoolbox/theme/graphs/contributors
 
 markdown: kramdown
 fenced_code_blocks: true
