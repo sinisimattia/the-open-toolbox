@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Trova la risorsa che fa per te.
+title: Open Source tools at your disposal
 callouts: callouts
 banner_with_image: true
 image: https://i.ibb.co/NW81dVJ/The-Open-Toolbox-Cropped.gif
@@ -8,50 +8,37 @@ hero_darken: false
 hero_style: is-primary
 hero_height: is-large
 hero_link: /resources
-hero_link_text: "Inizia"
+hero_link_text: "Get started"
 hero_link_style: "is-light"
 ---
 
-## Introduzione
-Ogni anno centinaia di nuovi tool, framework e librerie vengono rilasciate per aiutare noi sviluppatori a creare la nostra prossima applicazione.
+## Introduction
+Every year, countless new tools, libraries, frameworks, ingredients, etc. are released in order to help us create our next project.
 
-Con questo progetto vogliamo impegnarci a **collezionare ed organizzare** queste risorse in un unico ambiente a disposizione di tutta la Community.
+With our project we aim to **collect and organize** the best resources, by providing simple guides and explanations given by our communities and checked by experts.
 
-Aiuta i tuoi colleghi condividendo risorse, modificando direttamente il sito o suggerendo modifiche.
+Best of all, we intend to use the tools that **GitHub** provides (such as discussions, hosting, issues and pull requests) in order to manage the project.
 
-<div class="hero is-small is-dark is-rounded my-medium" style="background-image:url(https://i.ibb.co/Qpfh4B4/Sprinkle.png)">
+<div class="hero is-small is-dark is-rounded mb-medium mt-large" style="background-image:url(https://i.ibb.co/Qpfh4B4/Sprinkle.png)">
 	<div class="hero-body">
 		<div class="columns is-vcentered">
 			<div class="column is-two-thirds">
-				<p class="title is-3 has-text-white">Aiutaci a creare una risorsa libera e gratuita per tutti!</p>
+				<div class="p-small">
+					<h3 class="title is-3 has-text-white">Help us create free guides and resources for everyone!</h3>
+					<p class="has-text-white">Our mission is to provide free, fact-checked and open source guides on the most used tools in any industry sector.</p>
+				</div>
 			</div>
 			<div class="column">
-				<div class="is-flex is-justify-content-center mt-negative-medium">
-					<img width="200px" src="https://i.ibb.co/RDtYp7P/green-rocket.gif" alt="Rocket">
+				<div class="is-flex is-justify-content-center is-hidden-touch mt-negative-large mb-negative-medium">
+					<img style="max-width: 300px" src="https://gifimage.net/wp-content/uploads/2018/04/loading-animated-gif-transparent-background-4.gif" alt="A shapeless blob">
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
 
-## Come partecipare ✍
+## How to contribute ✍
 
-Per contribuire al progetto hai 2 possibilità :
-1. Apri un _issue_  in cui segnali un errore o condividi una nuova risorsa (utilizza il template corretto e aggiungi i label adatti)
-2. Clona il progetto, effettua le modifiche ed apri una _pull request_ (aggiungi i label corretti per un’approvazione più veloce)
+In order to contribute to this or another toolbox, please refer to [the rules]({{site.url}}/about/rules).
 
-## Discussioni
-
-Hai dei problemi con un tool, un framework o una libreria proposta? 🙄 Dubbi? 🤔 Vuoi far partire un QnA? 🎙
-
-Magari vuoi semplicemente condividere un'idea che pensi sia utile al prossimo? 😍
-
-<div class="is-flex is-justify-content-center my-medium">
-	<a href="{{site.collaboration_links.discussions}}" class="button is-link is-light is-large">Vai alle discussioni</a>
-</div>
-
-Nelle discussioni è anche possibile condividere il proprio codice o la propria repository 😉 
-
-{% include notification.html message="**Ricorda:** se esiste già una discussione dello stesso argomento contribuisci ad una esistente piuttosto che aprirne una nuova." %}
-
-
+> Thanks for stopping by!
