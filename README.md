@@ -10,8 +10,12 @@ Install it locally:
 ```bash
 bundle install jekyll-theme-opentoolbox
 ```
+... and set it as your theme by adding this line to your `_config.yml`:
+```yaml
+theme: jekyll-theme-opentoolbox
+```
 
-Or you could set it as a **remote theme** for [GitHub Pages](https://pages.github.com) by adding this line to your `_config.yml`.
+Or you could set it as a **remote theme** for [GitHub Pages](https://pages.github.com) by adding this line to your `_config.yml`:
 ```yaml
 remote_theme: opentoolbox/theme
 ```
