@@ -1,5 +1,5 @@
 ---
-title: Risorse
-subtitle: Le risorse preferite della community.
+title: Resources
+subtitle: Explore our sites and communities.
 showcase: featured
 ---

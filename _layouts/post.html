@@ -8,8 +8,10 @@ layout: base
 			<div class="section">
 				<div class="columns is-vcentered">
 					<div class="column">
-						<h1 class="title is-1">{{page.title}}</h1>
-						<p>📅 {{ page.date | date: "%b %-d, %Y" }} by {{ page.author }}</p>
+						<h1 class="title is-1 mb-small">{{page.title}}</h1>
+						<p>{{ page.author }}</p>
+
+						<p class="mt-small">📅 {{ page.date | date: "%b %-d, %Y" }}</p>
 					</div>
 
 					{% if page.summary %}

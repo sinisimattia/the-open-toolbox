@@ -2,7 +2,7 @@ style: is-primary
 height: is-medium
 items:
   - title: The Developer's Toolbox
-    icon: fa-terminal
+    icon: terminal
     icon_brand: false
     description: >
       Risorse per sviluppatori, raccolte per la tua convenienza.
@@ -10,7 +10,7 @@ items:
     call_to_action_link: https://developer.opentoolbox.online
 
   - title: GitHub
-    icon: fa-github
+    icon: github
     icon_brand: true
     description: >
       Questo è uno tra tanti progetti che sviluppiamo insieme alla community.

@@ -4,10 +4,11 @@
 <div class="tabs {% if tabs.size %}{{ tabs.size }}{% endif %} {% if tabs.alignment %}{{ tabs.alignment }}{% endif %} {% if tabs.style %}{{ tabs.style }}{% endif %}">
     <ul>
     {% for tab in tabs.items %}
+		{% assign icon = tab.icon %}
         <li {% if tab.link == page.url %} class="is-active" {% endif %}>
             <a href="{{ tab.link | relative_url }}">
-                {% if tab.icon %}
-                <span class="icon is-small"><i class="fas {{ tab.icon }}" aria-hidden="true"></i></span>
+                {% if icon %}
+					{% include icon.html icon=icon class="is-small" %}
                 {% endif %}
                 <span>{{ tab.name }}</span>
             </a>

@@ -5,13 +5,14 @@
             <div class="container">
                 <div class="columns is-multiline is-centered is-vcentered is-4">
                     {% for callout in callouts.items %}
+						{% assign icon = callout.icon %}
                         <div class="column is-4 has-text-centered p-6">
                             {% if callout.icon %}
                             <div class="icon callout-icon">
                             {% if callout.icon_brand %}
-                                <i class="fab {{ callout.icon }} fa-4x"></i>
+								{% include icon.html category="fab" icon=icon size="4x" %}
                             {% else %}
-                                <i class="fas {{ callout.icon }} fa-4x"></i>
+								{% include icon.html icon=icon size="4x" %}
                             {% endif %}
                             </div>
                             {% endif %}
@@ -27,7 +28,9 @@
                             {% if callout.call_to_action_name %}
                             <a href="{{ callout.call_to_action_link | relative_url }}" class="{{ callouts.style }} is-block has-text-weight-bold mt-medium">
                                 <span>{{ callout.call_to_action_name }}</span>
-                                <span class="ml-small"><i class="fas fa-external-link-alt"></i></span>
+                                <span class="ml-small">
+									{% include icon.html icon="external-link-alt" %}
+								</span>
                             </a>
                             {% endif %}
                         </div>

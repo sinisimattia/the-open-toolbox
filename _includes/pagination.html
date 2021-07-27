@@ -1,14 +1,12 @@
 <nav class="pagination is-centered">
-    {% if paginator.previous_page %}
-    <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="pagination-previous is-info">Previous</a>
-    {% else %}
-    <p class="pagination-previous" disabled>Previous</p>
-    {% endif %}
-    {% if paginator.next_page %}
-    <a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="pagination-next is-info">Next</a>
-    {% else %}
-    <p class="pagination-next" disabled >Next</p>
-    {% endif %}
+	<a class="is-block pagination-previous" {% if paginator.previous_page %} href="{{ site.baseurl }}{{ paginator.previous_page_path }}" {% else %} disabled {% endif %} >
+		{% include icon.html icon="arrow-left" size="lg" %}
+	</a>
+
+    <a class="is-block pagination-next" {% if paginator.next_page %} href="{{ site.baseurl }}{{ paginator.next_page_path }}" {% else %} disabled {% endif %} >
+		{% include icon.html icon="arrow-right" size="lg" %}
+	</a>
+
     <ul class="pagination-list">
         {% for page in (1..paginator.total_pages) %}
         {% if page == paginator.page %}

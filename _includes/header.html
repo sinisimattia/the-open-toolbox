@@ -33,7 +33,7 @@
             <div class="navbar-end">
                 {% if site.gh_sponsor %}
                 <a class="navbar-item is-rounded" href="https://github.com/sponsors/{{ site.gh_sponsor }}">
-                    <span class="icon gh-sponsor"><i class="fas fa-heart"></i></span>
+					{% include class="gh-sponsor" icon="heart" %}
                     <span>Sponsor</span>
                 </a>
                 {% endif %}

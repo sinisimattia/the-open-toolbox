@@ -1,3 +1,4 @@
+{% assign icon = include.icon | default: 'exclamation-circle' %}
 <div x-data="{visible: true}" markdown="0">
     <div class="notification {{ include.status | default: 'is-warning' }}" x-show.transition.duration.300ms="visible">
         {% if include.dismissable %}
@@ -6,7 +7,7 @@
         <article class="media">
             {% unless include.icon %}
                 <div class="media-left">
-                    <span class="icon"><i class="{{ include.icon | default: 'fas fa-exclamation-circle' }} fa-lg"></i></span>
+                    {% include icon.html icon=icon %}
                 </div>
             {% endunless %}
             <div class="media-content">

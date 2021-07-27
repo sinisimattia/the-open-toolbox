@@ -7,7 +7,7 @@
                 <span>{{ tier.tier_name }}</span>
             </p>
             <p class="subtitle has-text-centered">
-                <span class="icon is-large gh-sponsor"><i class="fas fa-heart fa-2x"></i></span>
+				{% include icon.html class="is-large gh-sponsor" icon="heart" size="2x" %}
             </p>
             <div class="columns is-centered">
                 <div class="column is-6 content has-text-centered">
@@ -24,7 +24,9 @@
                         </p>
                         <p class="subtitle is-6">
                             {% if sponsor.profile %}
-                            <a href="{{ sponsor.profile }}" class="is-link is-small">View Profile</a>
+                            <a href="{{ sponsor.profile }}" class="is-link is-small">
+								{% include icon.html icon="arrow-right" %}
+							</a>
                             {% else %}
                             &nbsp;
                             {% endif %}
