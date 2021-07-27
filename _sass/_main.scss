@@ -3,11 +3,43 @@
 @import "../node_modules/bulma/bulma.sass";
 @import "../node_modules/bulma-block-list/src/block-list.scss";
 
-@import "variables";
 @import "layout";
 @import "syntax";
 @import "showcase";
 
 .gh-sponsor {
-  color: #ea4aaa;
+	color: #ea4aaa;
+}
+
+.user-mention {
+	font-weight: $mention-weight;
+	color: $mention-color;
+}
+
+.pagination-previous,
+.pagination-next {
+	&[disabled] {
+		background-color: $link !important;
+		color: $white !important;
+		border: none !important;
+	}
+}
+
+.is-dark {
+	&.box {
+		background-color: $dark !important;
+		color: $white;
+	}
+}
+
+.thumbnail {
+	width: 100%;
+}
+
+.is-rounded {
+	border-radius: $radius-large !important;
+}
+
+.has-shadow {
+	box-shadow: $shadow-large !important;
 }
