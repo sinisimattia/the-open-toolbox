@@ -1,6 +1,6 @@
 - name: Blog
   link: /blog/
 - name: Source
-  link: https://github.com/opentoolbox
+  link: *source_link
 - name: Regole
   link: /about/rules

@@ -2,6 +2,6 @@
   link: /resources/
   dropdown: 
     - name: Main
-      link: https://the.opentoolbox.online
+      link: &url
     - name: Developer
       link: https://developer.opentoolbox.online

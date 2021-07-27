@@ -1,5 +1,5 @@
 title: The Open Toolbox
-url: https://the.opentoolbox.online
+url: &url https://the.opentoolbox.online
 baseurl: ""
 favicon: https://i.ibb.co/NW81dVJ/The-Open-Toolbox-Cropped.gif
 logo: https://i.ibb.co/NW81dVJ/The-Open-Toolbox-Cropped.gif
@@ -16,12 +16,12 @@ show_sidebar: true
 permalink: /posts/:title
 
 links:
-  issues: https://github.com/opentoolbox/theme/issues
-  pull_requests: https://github.com/opentoolbox/theme/pulls
-  discussions: https://github.com/opentoolbox/theme/discussions
-  rules: /about/rules
-  source: https://github.com/opentoolbox/theme
-  contributors: https://github.com/opentoolbox/theme/graphs/contributors
+  issues: &issues_link https://github.com/opentoolbox/theme/issues
+  pull_requests: &pull_requests_link https://github.com/opentoolbox/theme/pulls
+  discussions: &discussions_link https://github.com/opentoolbox/theme/discussions
+  rules: &rules_link /about/rules
+  source: &source_link https://github.com/opentoolbox/theme
+  contributors: &contributors_link https://github.com/opentoolbox/theme/graphs/contributors
 
 markdown: kramdown
 fenced_code_blocks: true
