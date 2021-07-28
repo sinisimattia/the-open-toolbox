@@ -18,7 +18,7 @@ permalink: /posts/:title
 links:
   feedback: &feedback_link https://github.com/opentoolbox/theme/issues
   pull_requests: &pull_requests_link https://github.com/opentoolbox/theme/pulls
-  discussions: &discussions_link ""
+  discussions: &discussions_link
   rules: &rules_link /about/rules
   source: &source_link https://github.com/opentoolbox/theme
   contributors: &contributors_link https://github.com/opentoolbox/theme/graphs/contributors
