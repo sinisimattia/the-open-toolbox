@@ -12,9 +12,11 @@
         </div>
         {% endif %}
 
-        <div class="content is-small has-text-centered">
-            <p>Theme built by <a href="https://www.csrhymes.com">C.S. Rhymes</a> and expanded by <a href="https://mattia.codes">Mattia Sinisi</a> and <a href="https://gloriadesiderideveloper.it/">Gloria Desideri</a></p>
-        </div>
+		{% if site.data.messages.footer %}
+			<div class="content is-small has-text-centered">
+				{{site.data.messages.footer | markdownify }}
+			</div>
+		{% endif %}
     </div>
 </footer>
 
