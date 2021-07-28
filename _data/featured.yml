@@ -1,6 +1,6 @@
 items:
   - title: The Developer Toolbox
-    subtitle: Le risorse più utili raccolte dalla community di sviluppatori di start2impact.
+    subtitle: "[IT] The most popular resources in the start2impact community."
     features:
       - Front-End
       - Back-End
@@ -10,6 +10,6 @@ items:
     image: https://i.ibb.co/fdhW1RB/The-Developer-s-Toolbox-Poster.jpg
     image_ratio: is-16by9
     link: https://developer.opentoolbox.online
-    link_text: Vai al sito
-    tags: documentazione, tools
+    link_text: Visit 
+    tags: documentation, tools
     github: opentoolbox/developer
