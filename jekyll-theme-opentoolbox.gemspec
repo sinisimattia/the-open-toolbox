@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
 	spec.name          = "jekyll-theme-opentoolbox"
-	spec.version       = "2.0.0"
+	spec.version       = "2.0.1"
 	spec.authors       = ["Mattia Sinisi", "Gloria Desideri"]
 
 	spec.summary       = "A flexible, compact and automatic theme."
