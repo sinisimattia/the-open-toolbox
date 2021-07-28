@@ -4,12 +4,12 @@ title: Open Source tools at your disposal
 callouts: callouts
 banner_with_image: true
 image: https://i.ibb.co/NW81dVJ/The-Open-Toolbox-Cropped.gif
-hero_darken: false
-hero_style: is-primary
-hero_height: is-large
-hero_link: /resources
-hero_link_text: "Get started"
-hero_link_style: "is-light"
+banner_darken: false
+banner_style: is-primary
+banner_height: is-large
+banner_link: /resources
+banner_link_text: "Get started"
+banner_link_style: "is-light"
 ---
 
 ## Introduction

@@ -71,9 +71,9 @@ defaults:
       layout: page
       author: community
       image: https://i.ibb.co/hLw08Wj/The-Open-Toolbox.gif
-      hero_image: 
-      hero_height: is-medium
-      hero_darken: true
+      banner_image: 
+      banner_height: is-medium
+      banner_darken: true
   - scope:
       path: "resources/*"
     values:
