@@ -40,5 +40,7 @@
         </div>
     </section>
 
-	{% include section-divider.html %}
+	{% if callouts.with_wave %}
+		{% include section-divider.html %}
+	{% endif %}
 {% endif %}

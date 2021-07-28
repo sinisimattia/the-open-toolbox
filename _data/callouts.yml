@@ -1,4 +1,5 @@
 style: is-primary
+with_wave: true
 height: is-medium
 items:
   - title: The Developer's Toolbox
