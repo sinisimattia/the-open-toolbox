@@ -17,7 +17,8 @@ jobs:
           ref: main
 
       # Use GitHub Actions' cache to shorten build times and decrease load on servers
-      - uses: actions/cache@v2
+      - name: 📦 Build site
+        uses: actions/cache@v2
         with:
           token: ${{ secrets.ACCESS_TOKEN }}
           path: vendor/bundle
