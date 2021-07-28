@@ -1,7 +1,5 @@
 - name: Sites
   link: /resources/
-  dropdown: 
-    - name: Main
-      link: *url
-    - name: Developer
+  dropdown:
+    - name: For Developers
       link: https://developer.opentoolbox.online

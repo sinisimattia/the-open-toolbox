@@ -8,12 +8,3 @@ items:
       Risorse per sviluppatori, raccolte per la tua convenienza.
     call_to_action_name: Vai
     call_to_action_link: https://developer.opentoolbox.online
-
-  - title: GitHub
-    icon: github
-    icon_brand: true
-    description: >
-      Questo è uno tra tanti progetti che sviluppiamo insieme alla community.
-      Contribuisci anche tu!
-    call_to_action_name: Vedi su GitHub
-    call_to_action_link: *source_link

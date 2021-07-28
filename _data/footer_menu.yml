@@ -1,6 +1,4 @@
 - name: Blog
   link: /blog/
-- name: Source
-  link: *source_link
 - name: Regole
   link: /about/rules
