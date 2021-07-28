@@ -1,0 +1,5 @@
+{% if site.data.messages.important %}
+	<div class="has-text-white has-text-centered has-background-dark py-small px-medium">
+		{{ site.data.messages.important | markdownify }}
+	</div>
+{% endif %}
