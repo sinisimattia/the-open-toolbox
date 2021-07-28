@@ -8,23 +8,25 @@
 			</div>
 
 			<div class="card-footer">
-				<a class="card-footer-item" href="{{site.links.issues}}">Apri issue</a>
-				<a class="card-footer-item" href="{{site.links.pull_requests}}">Apri pull request</a>
+				<a class="card-footer-item" href="{{site.links.feedback}}">Feedback</a>
+				<a class="card-footer-item" href="{{site.links.pull_requests}}">Fix</a>
 			</div>
 		</div>
 	</div>
 
-	<div class="column">
-		<div class="card">
-			<div class="card-content">
-				<h5>Hai delle domande?</h5>
-			
-				<p>Se hai dei problemi con un tool, un framework o una libreria proposta apri o partecipa ad una discussione con il resto della community.</p>
-			</div>
+	{% if site.links.discussions %}
+		<div class="column">
+			<div class="card">
+				<div class="card-content">
+					<h5>Hai delle domande?</h5>
+				
+					<p>Se hai dei problemi con un tool, un framework o una libreria proposta apri o partecipa ad una discussione con il resto della community.</p>
+				</div>
 
-			<div class="card-footer">
-				<a class="card-footer-item" href="{{site.links.discussions}}">Partecipa alle discussioni</a>
+				<div class="card-footer">
+					<a class="card-footer-item" href="{{site.links.discussions}}">Discussions</a>
+				</div>
 			</div>
 		</div>
-	</div>
+	{% endif %}
 </div>

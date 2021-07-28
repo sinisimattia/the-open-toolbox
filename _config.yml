@@ -16,7 +16,7 @@ show_sidebar: true
 permalink: /posts/:title
 
 links:
-  issues: &issues_link https://github.com/opentoolbox/theme/issues
+  feedback: &feedback_link https://github.com/opentoolbox/theme/issues
   pull_requests: &pull_requests_link https://github.com/opentoolbox/theme/pulls
   discussions: &discussions_link https://github.com/opentoolbox/theme/discussions
   rules: &rules_link /about/rules
