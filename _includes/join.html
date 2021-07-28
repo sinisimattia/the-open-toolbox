@@ -1,32 +1,19 @@
-<div class="columns is-desktop">
-	<div class="column">
-		<div class="card">
-			<div class="card-content">
-				<h5>Trovato errori o argomenti mancanti?</h5>
-			
-				<p>Questo sito è completamente <strong>open source</strong>, quindi mandaci pure le tue modifiche e contribuisci al progetto!</p>
-			</div>
+<div class="my-small is-flex is-justify-content-space-around">
+	{% if site.links.feedback %}
+		<a href="{{site.links.feedback}}">
+			{% include icon.html category="far" icon="heart" %}
+		</a>
+	{% endif %}
 
-			<div class="card-footer">
-				<a class="card-footer-item" href="{{site.links.feedback}}">Feedback</a>
-				<a class="card-footer-item" href="{{site.links.pull_requests}}">Fix</a>
-			</div>
-		</div>
-	</div>
+	{% if site.links.pull_requests %}
+		<a href="{{site.links.pull_requests}}">
+			{% include icon.html icon="code-branch" %}
+		</a>
+	{% endif %}
 
 	{% if site.links.discussions %}
-		<div class="column">
-			<div class="card">
-				<div class="card-content">
-					<h5>Hai delle domande?</h5>
-				
-					<p>Se hai dei problemi con un tool, un framework o una libreria proposta apri o partecipa ad una discussione con il resto della community.</p>
-				</div>
-
-				<div class="card-footer">
-					<a class="card-footer-item" href="{{site.links.discussions}}">Discussions</a>
-				</div>
-			</div>
-		</div>
+		<a href="{{site.links.discussions}}">
+			{% include icon.html icon="comments" %}
+		</a>
 	{% endif %}
 </div>
